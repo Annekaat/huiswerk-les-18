@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      [class*"col-"] {
+        float: left;
+        padding: 15px;
+      }
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+      body{
+        background-color: black;
+      }
+      .header{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #CCCCCC;
+      text-align: center;
+      font-size: 40px;
+      color: white;
+      font-family: sans-serif;
+      }
+      h1{
+      background-image: url(denhaag.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      filter: opacity(80%);
+      padding: 35px;
+      }
+      .feitjes{
+        background-color: white;
+        margin-top: 10px;
+        padding-right: 40px;
+        margin: 20px;
+        }
+      .feitjes h4{
+      font-family: sans-serif;
+      text-align: center;
+      }
+      .artikelen{
+        background-color: #828282;
+        color: white;
+        padding: 10px;
+        margin: 20px;
+      }
+      footer{
+        background-color: #CCCCCC;
+        width: 100%;
+        height: 100px;
+      }
+      .attracties{
+        margin: 10px;
+      }
+      img{
+        float: right;
+        vertical-align: top;
+        width: 200px;
+        margin-left: 10px;
+      }
+      @media only screen and (min-width: 768px) {
+        body{background-color: white;}
+        .feitjes{background-color: orange;}
+      }
+      section{
+        display: flex;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="header">
+        <h1>Den Haag</h1>
+      </div>
+      <div class="row">
+        <section>
+          <div class="col-2 feitjes">
+            <h4>Wist je dat...</h4>
+            <ol>
+              <li>Den Haag maar liefst 11 kilometer kust heeft?</li>
+              <li>Er meer dan 180 verschillende nationaliteiten in Den Haag wonen?</li>
+              <li>De inwoners twee namen hebben; Hagenaar of Hagenees?</li>
+              <li>Den Haag meer dan 115 hofjes heeft?</li>
+              <li>De eerste tennisbaan van Nederland in Den Haag was?</li>
+            </ol>
+          </div>
+          <div class="col-9 artikelen">
+              <div class="attracties">
+                <img src="binnenhof.jpg" alt="foto van binnenhof">
+                <h3>Attractie 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. </p>
+              </div>
+              <div class="attracties">
+                <img src="scheveningen.jpg" alt="foto van scheveningen">
+                <h3>Attractie 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. </p>
+              </div>
+          </div>
+        </section>
+      </div>
+      <footer></footer>
+  </body>
+</html>
